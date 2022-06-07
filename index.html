@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9eb45967b7.js"></script>
+    <!-- letra cards ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Bienestar Salud</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a class="nav__logo" href="#">
+                <img src="./assets/logo.png" alt="Bienestar Salud logo"> Bienestar <span>Salud</span>
+            </a>
+            <ul class="nav__categorias">
+                <li><a href="#services" id="navServices">Servicios</a></li>
+                <li><a href="#aboutUs" id="navAboutUs">Nosotros</a></li>
+                <li><a href="#contact" id="navContact">Contacto</a></li>
+            </ul>
+            <button class="nav__responsiveButton"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__information">
+
+            <h2>KINESIOLOGÍA</h2>
+            <h2>FISIOTERAPIA</h2>
+            <h1>BIENESTAR <span>SALUD</span></h1>
+            <!-- <p>LUNES A VIERNES DE 8 A 12:30 HS. Y 16:30 A 20 HS.</p> -->
+            <p>SAN MIGUEL DE TUCUMÁN</p>
+        </div>
+    </main>
+    
+    <section id="services" class="services">
+        <div class="services__container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services__container__service animacion">
+                <div class="services__container__service__img">
+                    <img src="./assets/kinesiologia.jpeg" alt="Servicio de kinesiologia">    
+                </div>
+                
+                <div class="services__container__service__information">
+                    <h3>KINESIOLOGÍA</h3>
+                    <ul>
+                        <li>- Kinesiología Respiratoria, Pediatrica y Neonatal y Postcovid.</li>
+                        <li>- Kinesiologia cardiopulmonar y Post covid19</li>
+                        <li>- Kinesiologia traumatologica, Tapping, Liberación Miofacial, Esferodinamia, etc.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services__container__service animacion">
+                <!-- <div class="services__container__service__img">
+                    <img src="./assets/fisioterapia.jpeg" alt="Servicio de fisioterapia">    
+                </div> -->
+                <div class="services__container__service__information">
+                    <h3>FISIOTERAPIA</h3>
+                    <ul>
+                        <li>- Magnetoterapia.</li>
+                        <li>- Onda Corta.</li>
+                        <li>- Electroanalgesia.</li>
+                        <li>- Electroestimulación.</li>
+                        <li>- Ultrasonido.</li>
+                        <li>- Infrarrojo.</li>
+                        <li>- Láser.</li>
+                    </ul>
+                </div>
+                <div class="services__container__service__img">
+                    <img src="./assets/fisioterapia.jpeg" alt="Servicio de fisioterapia">    
+                </div>
+            </div>
+
+                <!-- se agrega -->
+            <div class="services__container__service animacion">
+                <div class="services__container__service__img">
+                    <img src="./assets/fisioterapia.jpeg" alt="Servicio de fisioterapia">    
+                </div>
+                <div class="services__container__service__information">
+                    <h3>REHABILITACIÓN NEUROKINÉSICA</h3>
+                    <ul>
+                        <li>- ACV.</li>
+                        <li>- Parkinson.</li>
+                        <li>- Alzheimer.</li>
+                        <li>- Prálisis Facial Periférica.</li>
+                        <li>- Lesiones Medulares.</li>
+                        <li>- Ela.</li>
+                        <li>- Esclerosis Múltiple.</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="services__container__service animacion">
+            <div class="services__container__service__information">
+                    <h3>TERAPIAS NO CONVENCIONALES</h3>
+                    <ul>
+                        <li>- Acupuntura.</li>
+                        <li>- Parkinson.</li>
+                        <li>- Alzheimer.</li>
+                        <li>- Prálisis Facial Periférica.</li>
+                        <li>- Lesiones Medulares.</li>
+                        <li>- Ela.</li>
+                        <li>- Esclerosis Múltiple.</li>
+                    </ul>
+                </div>
+                <div class="services__container__service__img">
+                    <img src="./assets/fisioterapia.jpeg" alt="Servicio de fisioterapia">    
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<section data-aos="zoom-in" data-aos-duration="2000"  id="aboutUs">
+    <div class="banner">
+        <p>En BIENESTAR <span class="salud">SALUD</span> contamos con equipamiento de última generación y profesionales altamente capacitados, con el único propósito de brindar una atención de excelencia en pos de garantizarle al paciente una pronta recuperación en un marco de empatía, atención y respeto.-</p>
+    </div>
+</section>
+
+
+    <!-- carrousel -->
+
+    <section id="aboutUs">
+        <div class="carrousel__titles__container">
+            <h2 data-aos="fade-right" data-aos-duration="2000" class="titulo_carrousel">Somos Bienestar <span
+                    class="salud">
+                    Salud </span></h2>
+            <h3 data-aos="fade-left" data-aos-duration="2000" class="titulo_carrousel_subtitulo">Ofrecemos un servicio
+                distinguido en Fisioterapia
+                y Kinesiología.</h3>
+        </div>
+
+
+        <div class="container_carrousel ">
+            <div class="row col-12 container_carrousel_row">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="50000">
+                            <div class="w-100">
+                                
+                                <div class="row align-items-center justify-content-center carousel-item-container">
+
+                                    <div class="col-md-10 order-md-0">
+                                        <figure class="mx-auto mb-0" >
+                                            <h4 class="carrousel-item_titulo">KINESIOLOGÍA TRAUMATOLÓGICA</h4>
+                                            <p class="carrousel_texto "> Kinesiología respiratoria, pediátrica y neonatal.
+                                                Contamos con materiales para el control de los parámetros vitales pre y post sesión de
+                                                KTR, sistema de aspiración abierta para patologías más complejas, gabinetes
+                                                individuales, aparatología de última generación y un gimnasio con variedad de elementos.
+                                                Las maniobras kinésicas convencionales se complementan con la posibilidad de tapping,
+                                                liberación miofacial, esferodinamia, punción seca, acupuntura.
+                                            </p>
+                                           
+
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="w-100">
+                                <div class="row align-items-center justify-content-center carousel-item-container">
+                                    
+                                    <div class="col-md-10 order-md-0">
+                                        <figure class="mx-auto mb-0" >
+                                      <h4 class="carrousel-item_titulo">REHABILITACIÓN PERSONALIZADA</h4>
+                                                <p class="carrousel_texto ">...Nuestro establecimiento tiene la capacidad de recepcionar pacientes
+                                                    con enfermedades neurológicas centrales y periféricas (ACV, PARKINSON, ALZEHIMER, PFP,
+                                                    ELA, ESQUELOROSIS MÚLTIPLE, LESIONES MEDULARES,SINDRÓMES VESTIBUALES ETC). Se brinda una
+                                                    atención personalizada de 45 minutos, con trabajo cuerpo a cuerpo, kinesiólogo –
+                                                    paciente. Las instalaciones brindan la posibilidad de recepcionar pacientes en camilla
+                                                    y/o silla de ruedas.</p>
+                                            
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="w-100">
+                                <div class="row align-items-center justify-content-center carousel-item-container">
+                                    
+                                    <div class="col-md-10 order-md-0">
+                                        <figure class="mx-auto mb-0" >
+                                           <h4 class="carrousel-item_titulo">REHABILITACIÓN NEUROKINÉSICA</h4>
+                                                <p class="carrousel_texto">El trabajo neurokinésico se realiza sobre la base de CONCEPTO BOBATH,
+                                contamos con los aditamentos necesarios para beneficiar la progresión ascendente del
+                                paciente. Cada una de las terapias según el requerimiento de la patología del paciente,
+                                quedan registradas en una ficha evaluativa donde se plasman los parámetros iniciales del
+                                paciente. Finalizadas las sesiones indicadas por el médico tratante se realiza una
+                                reevaluación para dejar constancia de la evolución del paciente en el proceso de su
+                                tratamiento.</p>
+                                            
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <h3 class="container_cards_titulo2">CONOCÉNOS</h3>
+        <div class="container_cards2">
+            <div class=" row row-cols-1 row-cols-md-3 g-4 container_cards_card">
+                <div class="col">
+                    <div data-aos="flip-left" data-aos-duration="2000" class="card2 h-100">
+                        <img src="./assets/card1.jpeg" class="card-img-top" alt="imagen Bienestar salud">
+                        <div class="card-body">
+                            <h5 class="card-title2">KINESIOLOGÍA TRAUMATOLÓGICA </h5>
+                            <p class="card-text2">
+                                Kinesiología respiratoria, pediátrica y neonatal.
+                                Contamos con materiales para el control de los parámetros vitales pre y post sesión de
+                                KTR, sistema de aspiración abierta para patologías más complejas, gabinetes
+                                individuales, aparatología de última generación y un gimnasio con variedad de elementos.
+                                Las maniobras kinésicas convencionales se complementan con la posibilidad de tapping,
+                                liberación miofacial, esferodinamia, punción seca, acupuntura.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="card2 h-100">
+                        <img src="./assets/card2.jpeg" class="card-img-top" alt="......ponemos imagen???">
+                        <div class="card-body">
+                            <h5 class="card-title2">REHABILITACIÓN PERSONALIZADA </h5>
+                            <p class="card-text2">Nuestro establecimiento tiene la capacidad de recepcionar pacientes
+                                con enfermedades neurológicas centrales y periféricas (ACV, PARKINSON, ALZEHIMER, PFP,
+                                ELA, ESQUELOROSIS MÚLTIPLE, LESIONES MEDULARES,SINDRÓMES VESTIBUALES ETC). Se brinda una
+                                atención personalizada de 45 minutos, con trabajo cuerpo a cuerpo, kinesiólogo –
+                                paciente. Las instalaciones brindan la posibilidad de recepcionar pacientes en camilla
+                                y/o silla de ruedas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-right" data-aos-duration="2000" class="card2 h-100">
+                        <img src="./assets/card3.jpeg" class="card-img-top" alt=".....ponemos imagen????">
+                        <div class="card-body">
+                            <h5 class="card-title2">REHABILITACIÓN NEUROKINÉSICA</h5>
+                            <p class="card-text2">El trabajo neurokinésico se realiza sobre la base de CONCEPTO BOBATH,
+                                contamos con los aditamentos necesarios para beneficiar la progresión ascendente del
+                                paciente. Cada una de las terapias según el requerimiento de la patología del paciente,
+                                quedan registradas en una ficha evaluativa donde se plasman los parámetros iniciales del
+                                paciente. Finalizadas las sesiones indicadas por el médico tratante se realiza una
+                                reevaluación para dejar constancia de la evolución del paciente en el proceso de su
+                                tratamiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact" class="contact">
+        <div class="contact__container">
+            <div class="contact__container__information">
+
+                <div class="contact__container__information__item">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div class="contact__container__information__item__text">
+                        <h4>UBICACIÓN</h4>
+                        <p>Buenos Aires 487 (4000) S. M. de Tucumán - Tucumán, Argentina.</p>
+                    </div>
+                </div>
+
+                <div class="contact__container__information__item">
+                    <span><i class="fa-solid fa-clock"></i></span>
+                    <div class="contact__container__information__item__text">
+                        <h4>HORARIOS</h4>
+                        <p>Lunes a Viernes de 8 a 14:hs. y 16:00 a 20hs.</p>
+                    </div>
+                </div>
+
+                <div class="contact__container__information__item">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <div class="contact__container__information__item__text">
+                        <h4>TELEFONOS</h4>
+                        <p>(54 381) 4241647</p>
+                        <p>(381) 542-2559</p>
+                    </div>
+                </div>
+
+                <div class="contact__container__information__item">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <div class="contact__container__information__item__text">
+                        <h4>EMAIL</h4>
+                        <p>
+                            <a href="mailto:recepcion@bsalud.com.ar">recepcion@bsalud.com.ar</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact__container__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1780.0416061244466!2d-65.2086948042381!3d-26.83730551872537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e990e8a49%3A0x1ccd162b1885edfc!2sBuenos%20Aires%20487%2C%20T4000IJI%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1653147545662!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__item">
+                <h3>UBICACIÓN</h3>
+                <p>Buenos Aires 487 (4000) S. M. de Tucumán - Tucumán, Argentina.</p>
+            </div>
+            <div class="footer__container__item">
+                <h3>HORARIOS (CON TURNO)</h3>
+                <p>Lunes a Viernes de 8 a 14:00 hs. y 16:00 a 20hs.</p>
+            </div>
+            <div class="footer__container__item contactItem">
+                <h3>CONTACTO</h3>
+                <p>(54 381) 4241647</p>
+                <p>(381) 542-2559</p>
+                <p><a href="mailto:recepcion@bsalud.com.ar">recepcion@bsalud.com.ar</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+<!-- animaciones -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
