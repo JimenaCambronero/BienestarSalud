@@ -4,7 +4,7 @@ Esta página ha sido creada a través de la obtención del Beneficio **Participa
 El mismo es un programa 100% virtual y consiste en la asignación de un trabajo Freelance (temporal) en el que se espera que se pueda cumplir con las necesidades y objetivos de los emprendimientos, fundaciones, organizaciones o empresas que requieran el servicio.
 
 
-*Este proyecto fue construido con HTML, CSS y se incluyeron algunos elementos de Bootstrap & AOS elements.*
+*Este proyecto fue construido con HTML, CSS, JavaScript y se incluyeron algunos elementos de Bootstrap & AOS elements.*
 
 
 📌Ver Página 
